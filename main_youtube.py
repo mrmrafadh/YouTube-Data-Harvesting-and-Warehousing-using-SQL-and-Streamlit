@@ -30,15 +30,6 @@ def get_cursor(query):
     return mycursor.fetchall()
 
 
-
-# irfan- UChL9x-Q75LCuYHIFRDT_T1A
-# my_ch - UC0w0qaUXKBcyCkyDwjgvsyw
-# ral_lop - UCULSrCo_sFQcz8r__iaLBJA
-# shakthivel - UCO-qbU5R7zRF268mBqSPKoA
-#sazarunes - UCTuow0QI7JuLWw647V40rww
-#cycle - UCQN6WKa4bLj6hjtM9WNXghA
-#channel_id = 'UCULSrCo_sFQcz8r__iaLBJA'  # example channel_ID
-
 #Define variable for youtube connection
 youtube = api_connect()
 
