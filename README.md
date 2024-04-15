@@ -20,3 +20,8 @@ In summary, this approach involves building a user-friendly interface with Strea
 
 ![youtube data extractor](https://github.com/mrmrafadh/YouTube-Data-Harvesting-and-Warehousing-using-SQL-and-Streamlit/assets/167102646/8af9a367-d68a-4812-a1f9-874117b10a09)
 
+Upon launching the application, the user is presented with a list of channels that have been previously stored in the database. The application provides a ‘Clear Database’ button, which allows the user to erase all previously saved channels.
+
+The ‘Grab Data’ button is designed to fetch data corresponding to the channel ID entered by the user in the provided text box. The user has the capacity to fetch data from up to 10 channels.
+
+Once the data is collected, it can be transferred to a MySQL database by clicking the ‘Save To Analyse Data’ button. The application also features a drop-down list populated with various analytical questions. By selecting a question from this list, the user can obtain an appropriate answer derived from the collected data.
