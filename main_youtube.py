@@ -14,7 +14,7 @@ ss = st.session_state
 #create connection to youtube using api
 def api_connect():
 
-    api_key = 'AIzaSyCTa5TVxnCYCU6Ai_VBasewuFSjN0X36xY'
+    api_key = 'Enter The Your API Key'
     connect = build('youtube', 'v3', developerKey=api_key)
     return connect
 
